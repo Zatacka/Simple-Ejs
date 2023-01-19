@@ -7,14 +7,14 @@ app.set('view engine', 'ejs');
 // use res.render to load up an ejs view file
 
 // index page
-app.get('/', function(req, res){
-    res.render('page/index');
+app.get('/', function(req, res) {
+  res.render('pages/index');
 });
 
 // about page
-app.get('/about', function(req, res){
-    res.render('pages/about');
+app.get('/about', function(req, res) {
+  res.render('pages/about');
 });
 
 app.listen(4000);
-console.log('app is running, use localhost:4000')
+console.log('Server is listening on port 4000');
