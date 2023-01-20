@@ -3,22 +3,40 @@
 <head>
   <%- include('../partials/head'); %>
 </head>
-<body class="container">
+
 
 <header>
-  <%- include('../partials/header'); %>
+  
 </header>
 
-<main>
-  <div class="jumbotron">
-    <h1>This is great</h1>
-    <p>Welcome to templating using EJS</p>
-  </div>
-</main>
+<body  style="background-color:#000000;">
+    <main class="main">
+        <div class="container">
+            <div class="col-12">
+                <%- include('../partials/header'); %>
 
-<footer>
-  <%- include('../partials/footer'); %>
-</footer>
+                <div class="row g-0" style="background-color:#41d3bd;">
+                    <div class="col-2">
+                        <%- include('../partials/left-sidebar'); %>
+                    </div>
+                    <div class="col-10 rounded-end" style="background-color:#ffffff;">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+
+    <footer>
+    <%- include('../partials/footer'); %>
+    </footer>
 
 </body>
+
+<script>
+    $(".mainmenu li").click(function(){
+    $(".mainmenu li").removeClass('active');
+    $(this).toggleClass('active');
+    });
+</script>
 </html>
