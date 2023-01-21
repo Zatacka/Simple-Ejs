@@ -1,11 +1,11 @@
-# Bootstrap-Ejs-Template
- 
 ### Installation
+Install important files in the root directory by running this command in the Terminal:
 ```
 $ Npm install ejs
 ```
 
 ### Run app
+Run this command in the Terminal:
 ```
 $ Node app.js
 ```
