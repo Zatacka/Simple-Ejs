@@ -1,4 +1,3 @@
-# Project-1
+# Bootstrap-Ejs-Template
  
-This is a side project that i work on in my spare time.
-Learning new technologies and implementing things along the way.
+This is a base template. Feel free to use it
