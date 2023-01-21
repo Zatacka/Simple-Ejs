@@ -2,33 +2,42 @@
 <html lang="en">
 <head>
   <%- include('../partials/head'); %>
+  <title>Website name | About</title>
 </head>
-<body class="container">
+
 
 <header>
-  <%- include('../partials/header'); %>
+
 </header>
 
-<main>
-<div class="row">
-  <div class="col-sm-8">
-    <div class="jumbotron">
-      <h1>This is great</h1>
-      <p>Welcome to templating using EJS</p>
-    </div>
-  </div>
+<body  style="background-color:#000000;">
+    <main class="main">
+        <div class="container">
+            <div class="col-12">
+                <%- include('../partials/header'); %>
+                <div class="row">
+                    <div class="col-2">
+                        <%- include('../partials/left-sidebar'); %>
+                    </div>
+                    <!-- Here is body of the website-->
+                    <div class="col-10 rounded" style="background-color:#ffffff;">
+                        <div class="col-12 m-auto mt-3 mb-3 bg-warning rounded" style="height:700px;">
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
 
-  <div class="col-sm-4">
-    <div class="well">
-      <h3>Look I'm A Sidebar!</h3>
-    </div>
-  </div>
-</div>
-</main>
-
-<footer>
-  <%- include('../partials/footer'); %>
-</footer>
+    <footer>
+        <br>
+    <%- include('../partials/footer'); %>
+    </footer>
 
 </body>
+
+<script>
+
+</script>
 </html>
