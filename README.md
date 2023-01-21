@@ -3,6 +3,9 @@ Install important files in the root directory by running this command in the Ter
 ```
 $ Npm install ejs
 ```
+```
+$ Npm install express
+```
 ______________________________________________________________________________________
 ### Run app
 Run this command in the Terminal:
