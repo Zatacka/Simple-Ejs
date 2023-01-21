@@ -11,6 +11,11 @@ app.get('/', function(req, res) {
   res.render('pages/index');
 });
 
+// FAQ page
+app.get('/faq', function(req, res) {
+  res.render('pages/faq');
+});
+
 // about page
 app.get('/about', function(req, res) {
   res.render('pages/about');
