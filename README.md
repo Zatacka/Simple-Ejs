@@ -1,3 +1,6 @@
+# General information
+This a website template that can be used to whatever you want. Just give this repo a star. Hope you like it.
+______________________________________________________________________________________
 ### Installation
 Install important files in the root directory by running this command in the Terminal:
 ```
