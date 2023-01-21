@@ -3,7 +3,7 @@ Install important files in the root directory by running this command in the Ter
 ```
 $ Npm install ejs
 ```
-
+______________________________________________________________________________________
 ### Run app
 Run this command in the Terminal:
 ```
