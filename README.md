@@ -15,6 +15,10 @@ Run this command in the Terminal:
 ```
 $ Node app.js
 ```
+Then visit
+```
+Localhost:4000
+```
 ______________________________________________________________________________________
 ### Features
 - Dynamic Sidebar
