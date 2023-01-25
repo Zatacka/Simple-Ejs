@@ -8,17 +8,16 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <style>
 
-body { 
-
+.Invert{
+    -webkit-filter: invert(100%);
 }
-
-
 
 .mainmenu, .submenu {
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 10px;
+    color: #000000;
 }
 
 .mainmenu a {
@@ -29,7 +28,7 @@ body {
 }
 
 .mainmenu a:hover {
-    background-color: #00ffd9;
+    color: #ff0000;
 }
 
 .mainmenu li:hover .submenu {
@@ -38,13 +37,8 @@ body {
 }
 
 
-
-.submenu a {
-    background-color: #ffffff;
-}
-
 .submenu a:hover {
-    background-color: #eeeeee;
+    color: #ff0000;
 }
 
 .submenu {

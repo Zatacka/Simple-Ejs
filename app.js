@@ -21,5 +21,10 @@ app.get('/about', function(req, res) {
   res.render('pages/about');
 });
 
+// 404 page
+app.use((req, res) => {
+  res.status(404).render('pages/404');
+});
+
 app.listen(4000);
 console.log('Server is listening on port 4000');
